@@ -1,0 +1,165 @@
+@media (max-width: 1900px) {
+  .wrapper-main-left {
+    padding-right: 0px;
+  }
+  .header-info {
+    gap: 8px;
+    height: 120px;
+  }
+  .header-info__logo__image {
+    width: 90px;
+  }
+  .header-info__content__image {
+    width: 90px;
+    margin-bottom: 4px;
+  }
+  .header-info__content__title {
+    font-size: 1.4rem;
+  }
+
+  .header-info__content__des {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .header-info__content__info {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 1438px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header-info {
+    height: 102px;
+  }
+
+  .table-info__header {
+    font-size: 1.4rem;
+    height: 18px;
+    line-height: 18px;
+  }
+
+  .report-info__no {
+    width: 160px;
+  }
+
+  .report-info__date {
+    width: 160px;
+  }
+
+  .table-info__content {
+    height: 40px;
+  }
+
+  .table-info__footer {
+    height: 40px;
+  }
+}
+
+/* A4 */
+@media (max-width: 1438px) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .header-info__content__title {
+    font-size: 1.7rem;
+  }
+
+  .header-info__content__des {
+    font-size: 1.6rem;
+  }
+
+  .header-info__content__address {
+    font-size: 1.6rem;
+  }
+
+  .header-info__content__info {
+    font-size: 1.6rem;
+  }
+
+  .table-info__content {
+    height: 32px;
+  }
+
+  .table-info__footer {
+    height: 32px;
+  }
+
+  .grading-scale--normal {
+    height: 18px;
+  }
+
+  .grading-scale--big {
+    height: 38px;
+  }
+
+  .grading-scale--bigger {
+    height: 84px;
+  }
+
+  .sign-row {
+    min-height: 150px;
+  }
+
+  .color-scale {
+    padding-left: 22px;
+  }
+
+  .clarity-scale {
+    margin-left: 16px;
+  }
+
+  .grading-scale--border::after {
+    height: 2px;
+  }
+}
+
+/* A5 */
+@media (max-width: 1024px) {
+  .header-info__content__title {
+    font-size: 1.7rem;
+  }
+
+  .header-info__content__des {
+    font-size: 1.5rem;
+  }
+
+  .header-info__content__address {
+    font-size: 1.6rem;
+  }
+
+  .header-info__content__info {
+    font-size: 1.6rem;
+  }
+
+  .wrapper-sign {
+    margin-top: 12px
+  }
+
+  .table-info__content {
+    padding: 4px 16px;
+  }
+  
+  .table-info__footer {
+    padding: 4px 16px;
+  }
+
+  .wrapper-main-left {
+    padding-bottom: 16px;
+  }
+
+  .sign {
+    width: 60px;
+  }
+
+  .sign-row {
+    min-height: 110px;
+  }
+
+  .wrapper-report-description {
+    padding-bottom: 26px;
+  }
+}
