@@ -31,9 +31,12 @@ body {
   margin-top: 20px;
 }
 
-.header-info__content__image {
-  width: 140px;
-  margin-bottom: 8px;
+.header-info__content__company {
+  font-size: 3.4rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 6px;
 }
 
 .header-info__content__title {
@@ -236,9 +239,68 @@ body {
 
 .wrapper-diamond-img {
   height: 240px;
-  /* background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%); */
-  background: gray;
   margin-bottom: 16px;
+  font-size: 1.6rem;
+  display: flex;
+}
+
+.diamond-img {
+  width: 100%;
+}
+
+.diamond-size {
+  position: absolute;
+  left: 0;
+  top: 38px;
+  max-width: 52px;
+  transform: translateY(-54%);
+}
+
+.diamond-girdle {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  max-width: 52px;
+}
+
+.diamond-table {
+  position: absolute;
+  top: 1px;
+  right: 100px;
+}
+
+.diamond-depth {
+  position: absolute;
+  top: 54px;
+  right: 83px;
+}
+
+.diamond-info-1 {
+  position: absolute;
+  top: 26px;
+  right: 68px;
+}
+
+.diamond-info-2 {
+  position: absolute;
+  top: 14px;
+  right: 6px;
+}
+
+#sub{
+  vertical-align: sub;
+  }
+
+.diamond-info-3 {
+  position: absolute;
+  top: 74px;
+  right: 68px;
+}
+
+.diamond-info-4 {
+  position: absolute;
+  top: 60px;
+  right: 6px;
 }
 
 .grading-title {

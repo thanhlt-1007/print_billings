@@ -58,7 +58,7 @@
   }
 }
 
-/* A4 */
+
 @media (max-width: 1438px) {
   html {
     font-size: 37.5%;
@@ -115,10 +115,116 @@
   .grading-scale--border::after {
     height: 2px;
   }
+
+  .diamond-size {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    max-width: 52px;
+    transform: translateY(-54%);
+  }
+
+  .diamond-girdle {
+    position: absolute;
+    left: 0;
+    top: 44px;
+    max-width: 52px;
+  }
+
+  .diamond-table {
+    position: absolute;
+    top: 0px;
+    right: 80px;
+  }
+
+  .diamond-depth {
+    position: absolute;
+    top: 43px;
+    right: 66px;
+  }
+
+  .diamond-info-1 {
+    position: absolute;
+    top: 20px;
+    right: 51px;
+  }
+
+  .diamond-info-2 {
+    position: absolute;
+    top: 8px;
+    right: 3px;
+  }
+
+  .diamond-info-3 {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+  }
+
+  .diamond-info-4 {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+  }
 }
 
-/* A5 */
+/* A4 */
 @media (max-width: 1024px) {
+  .diamond-size {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    max-width: 52px;
+    transform: translateY(-54%);
+  }
+
+  .diamond-girdle {
+    position: absolute;
+    left: 0;
+    top: 42px;
+    max-width: 52px;
+  }
+
+  .diamond-table {
+    position: absolute;
+    top: -1px;
+    right: 83px;
+  }
+
+  .diamond-depth {
+    position: absolute;
+    top: 46px;
+    right: 66px;
+  }
+
+  .diamond-info-1 {
+    position: absolute;
+    top: 20px;
+    right: 52px;
+  }
+
+  .diamond-info-2 {
+    position: absolute;
+    top: 7px;
+    right: 2px;
+  }
+
+  .diamond-info-3 {
+    position: absolute;
+    top: 60px;
+    right: 48px;
+  }
+
+  .diamond-info-4 {
+    position: absolute;
+    top: 48px;
+    right: -1px;
+  }
+}
+
+
+/* A5 */
+@media (max-width: 700px) {
   .header-info__content__title {
     font-size: 1.7rem;
   }
@@ -142,7 +248,7 @@
   .table-info__content {
     padding: 4px 16px;
   }
-  
+
   .table-info__footer {
     padding: 4px 16px;
   }
@@ -161,5 +267,56 @@
 
   .wrapper-report-description {
     padding-bottom: 26px;
+  }
+
+  .diamond-size {
+    position: absolute;
+    left: 0;
+    top: 28px;
+    max-width: 52px;
+    transform: translateY(-54%);
+  }
+
+  .diamond-girdle {
+    position: absolute;
+    left: 0;
+    top: 42px;
+    max-width: 52px;
+  }
+
+  .diamond-table {
+    position: absolute;
+    top: -2px;
+    right: 78px;
+  }
+
+  .diamond-depth {
+    position: absolute;
+    top: 42px;
+    right: 62px;
+  }
+
+  .diamond-info-1 {
+    position: absolute;
+    top: 19px;
+    right: 48px;
+  }
+
+  .diamond-info-2 {
+    position: absolute;
+    top: 7px;
+    right: 2px;
+  }
+
+  .diamond-info-3 {
+    position: absolute;
+    top: 57px;
+    right: 48px;
+  }
+
+  .diamond-info-4 {
+    position: absolute;
+    top: 46px;
+    right: -1px;
   }
 }

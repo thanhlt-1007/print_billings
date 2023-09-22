@@ -44,6 +44,14 @@
   font-style: normal;
 }
 
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+    color-adjust: exact !important;  /*Firefox*/
+    print-color-adjust: exact !important;
+  }
+}
+
 * {
   box-sizing: inherit;
 }
@@ -82,4 +90,16 @@ p {
 
 .pr-40 {
   padding-right: 40px;
+}
+
+.have-degree-symbol::after {
+  content: "\00b0";
+  font-size: 16px;
+}
+
+.have-subscript::after {
+  content: attr(data-subscript);
+  vertical-align: sub;
+  font-size: 0.8rem;
+  margin-top: 4px;
 }
