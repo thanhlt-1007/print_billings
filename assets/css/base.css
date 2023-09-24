@@ -11,11 +11,6 @@
   size: a4 landscape;
 }
 
-/*
-@page {
-  size: a5 landscape;
-} */
-
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular.ttf") format("truetype");
@@ -65,6 +60,8 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-image: url("../images/background.png");
+  background-size: cover;
 }
 
 p {
@@ -102,4 +99,12 @@ p {
   vertical-align: sub;
   font-size: 0.8rem;
   margin-top: 4px;
+}
+
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.icon-checked {
+  color: var(--secondary-color);
 }
