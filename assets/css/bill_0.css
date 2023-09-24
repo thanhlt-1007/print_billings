@@ -70,69 +70,80 @@
 }
 
 .wrapper-diamond-img {
-  height: 240px;
+  height: 310px;
   margin-bottom: 16px;
   font-size: 1.6rem;
   display: flex;
 }
 
+.diamond-container {
+  margin: auto 0px 20px 0px;
+  position: relative;
+}
+
 .diamond-img {
-  width: 100%;
+  width: 456px;
+  padding-left: 77px;
+  padding-right: 34px;
 }
 
 .diamond-size {
   position: absolute;
   left: 0;
-  top: 38px;
+  top: 68px;
   max-width: 52px;
   transform: translateY(-54%);
+}
+
+.diamond-symbol {
+  position: absolute;
+  left: 0;
+  top: 64px;
+  max-width: 52px;
+  font-size: 24px;
 }
 
 .diamond-girdle {
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 92px;
   max-width: 52px;
 }
 
 .diamond-table {
   position: absolute;
   top: 1px;
-  right: 100px;
+  right: 168px;
 }
 
 .diamond-depth {
   position: absolute;
-  top: 54px;
-  right: 83px;
+  top: 88px;
+  right: 140px;
 }
 
 .diamond-info-1 {
   position: absolute;
-  top: 26px;
-  right: 68px;
+  top: 38px;
+  right: 113px;
 }
 
 .diamond-info-2 {
   position: absolute;
-  top: 14px;
-  right: 6px;
+  top: 30px;
+  right: 20px;
 }
-
-#sub{
-  vertical-align: sub;
-  }
 
 .diamond-info-3 {
   position: absolute;
-  top: 74px;
-  right: 68px;
+  top: 114px;
+  right: 110px;
 }
 
 .diamond-info-4 {
   position: absolute;
-  top: 60px;
-  right: 6px;
+  top: 103px;
+  right: 15px;
 }
 
 .grading-title {

@@ -116,55 +116,73 @@
     height: 2px;
   }
 
+  .wrapper-diamond-img {
+    height: 200px;
+  }
+
+  .diamond-img {
+    width: 300px;
+    padding-left: 46px;
+    padding-right: 52px;
+  }
+
   .diamond-size {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    max-width: 52px;
+    transform: translateY(-54%);
+  }
+
+  .diamond-symbol {
     position: absolute;
     left: 0;
     top: 30px;
     max-width: 52px;
-    transform: translateY(-54%);
+    font-size: 24px;
   }
 
   .diamond-girdle {
     position: absolute;
     left: 0;
-    top: 44px;
+    top: 54px;
     max-width: 52px;
   }
 
   .diamond-table {
     position: absolute;
     top: 0px;
-    right: 80px;
+    right: 131px;
   }
 
   .diamond-depth {
     position: absolute;
-    top: 43px;
-    right: 66px;
+    top: 53px;
+    right: 114px;
   }
 
   .diamond-info-1 {
     position: absolute;
-    top: 20px;
-    right: 51px;
+    top: 22px;
+    right: 98px;
   }
 
   .diamond-info-2 {
     position: absolute;
-    top: 8px;
-    right: 3px;
+    top: 10px;
+    right: 40px;
   }
 
   .diamond-info-3 {
     position: absolute;
-    top: 60px;
-    right: 50px;
+    top: 70px;
+    right: 96px;
   }
 
   .diamond-info-4 {
     position: absolute;
-    top: 50px;
-    right: 0px;
+    top: 56px;
+    right: 38px;
   }
 }
 
@@ -173,7 +191,7 @@
   .diamond-size {
     position: absolute;
     left: 0;
-    top: 30px;
+    top: 38px;
     max-width: 52px;
     transform: translateY(-54%);
   }
@@ -181,44 +199,44 @@
   .diamond-girdle {
     position: absolute;
     left: 0;
-    top: 42px;
+    top: 55px;
     max-width: 52px;
   }
 
   .diamond-table {
     position: absolute;
-    top: -1px;
-    right: 83px;
+    top: 0px;
+    right: 131px;
   }
 
   .diamond-depth {
     position: absolute;
-    top: 46px;
-    right: 66px;
+    top: 51px;
+    right: 114px;
   }
 
   .diamond-info-1 {
     position: absolute;
-    top: 20px;
-    right: 52px;
+    top: 21px;
+    right: 98px;
   }
 
   .diamond-info-2 {
     position: absolute;
-    top: 7px;
-    right: 2px;
+    top: 12px;
+    right: 42px;
   }
 
   .diamond-info-3 {
     position: absolute;
-    top: 60px;
-    right: 48px;
+    top: 70px;
+    right: 98px;
   }
 
   .diamond-info-4 {
     position: absolute;
-    top: 48px;
-    right: -1px;
+    top: 54px;
+    right: 40px;
   }
 }
 
@@ -272,7 +290,7 @@
   .diamond-size {
     position: absolute;
     left: 0;
-    top: 28px;
+    top: 39px;
     max-width: 52px;
     transform: translateY(-54%);
   }
@@ -280,43 +298,43 @@
   .diamond-girdle {
     position: absolute;
     left: 0;
-    top: 42px;
+    top: 53px;
     max-width: 52px;
   }
 
   .diamond-table {
     position: absolute;
-    top: -2px;
-    right: 78px;
+    top: 0px;
+    right: 132px;
   }
 
   .diamond-depth {
     position: absolute;
-    top: 42px;
-    right: 62px;
+    top: 53px;
+    right: 114px;
   }
 
   .diamond-info-1 {
     position: absolute;
-    top: 19px;
-    right: 48px;
+    top: 21px;
+    right: 99px;
   }
 
   .diamond-info-2 {
     position: absolute;
-    top: 7px;
-    right: 2px;
+    top: 12px;
+    right: 41px;
   }
 
   .diamond-info-3 {
     position: absolute;
-    top: 57px;
-    right: 48px;
+    top: 68px;
+    right: 97px;
   }
 
   .diamond-info-4 {
     position: absolute;
-    top: 46px;
-    right: -1px;
+    top: 54px;
+    right: 40px;
   }
 }
