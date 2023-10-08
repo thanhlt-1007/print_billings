@@ -81,11 +81,11 @@
   }
 
   .table-info__content {
-    height: 32px;
+    height: 31px;
   }
 
   .table-info__footer {
-    height: 32px;
+    height: 31px;
   }
 
   .grading-scale--normal {
@@ -184,6 +184,12 @@
     top: 56px;
     right: 38px;
   }
+
+  .diamond-info-5 {
+    position: absolute;
+    bottom: -10px;
+    right: 124px;
+  }
 }
 
 /* A4 */
@@ -238,11 +244,27 @@
     top: 54px;
     right: 40px;
   }
+
+  .diamond-info-5 {
+    position: absolute;
+    bottom: -10px;
+    right: 124px;
+  }
+
+  .img-report {
+    width: 220px;
+    height: 220px;
+  }
 }
 
 
 /* A5 */
 @media (max-width: 700px) {
+  .img-report {
+    width: 220px;
+    height: 220px;
+  }
+
   .header-info__content__title {
     font-size: 1.7rem;
   }
@@ -336,5 +358,11 @@
     position: absolute;
     top: 54px;
     right: 40px;
+  }
+
+  .diamond-info-5 {
+    position: absolute;
+    bottom: -10px;
+    right: 124px;
   }
 }

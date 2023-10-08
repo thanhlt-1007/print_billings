@@ -146,6 +146,12 @@
   right: 15px;
 }
 
+.diamond-info-5 {
+  position: absolute;
+  bottom: -16px;
+  right: 156px;
+}
+
 .grading-title {
   text-transform: uppercase;
   border-top: 3px solid var(--text-color);
