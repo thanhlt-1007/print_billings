@@ -39,6 +39,34 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "SVN-Aptima";
+  src: url("../fonts/SVN-Aptima.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVN-Aptima-italic";
+  src: url("../fonts/SVN-Aptima-italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVN-Aptima-bold";
+  src: url("../fonts/SVN-Aptima-bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVN-Aptima-bold-italic";
+  src: url("../fonts/SVN-Aptima-bold-italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @media print {
   * {
     -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
