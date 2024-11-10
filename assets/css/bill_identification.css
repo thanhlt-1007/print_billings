@@ -23,13 +23,15 @@
 
 .report-info__no__label {
   font-weight: 700;
-  min-width: 60px;
+  min-width: 65px;
+  font-family: "Montserrat-Bold";
 }
 
 .report-info__no__content {
   font-weight: 700;
   font-size: 2.1rem;
   min-width: 200px;
+  font-family: "Montserrat-Bold";
 }
 
 .report-info__date {
@@ -40,6 +42,16 @@
   font-weight: 600;
 }
 
+.report-info__date__label {
+  font-family: "Montserrat-Medium";
+  min-width: 135px;
+}
+
+
+.report-info__date__content {
+  font-family: "Montserrat-Thin";
+  font-size: 1.7rem;
+}
 
 .iso__content {
   width: 50px;
