@@ -9,7 +9,7 @@
 }
 
 .report-info {
-  margin-left: 40px;
+  margin-left: 20px;
   font-size: 1.6rem;
   color: var(--text-color);
 }
@@ -23,11 +23,13 @@
 
 .report-info__no__label {
   font-weight: 700;
+  min-width: 60px;
 }
 
 .report-info__no__content {
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
+  min-width: 200px;
 }
 
 .report-info__date {
@@ -37,6 +39,7 @@
   justify-content: space-between;
   font-weight: 600;
 }
+
 
 .iso__content {
   width: 50px;
