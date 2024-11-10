@@ -2,8 +2,7 @@
 .wrapper-report-info {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  border-bottom: 2px solid;
+  border-bottom: 1.5px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
