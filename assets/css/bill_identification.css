@@ -5,6 +5,7 @@
   border-bottom: 1.5px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  margin-top: 20px;
 }
 
 .report-info {
@@ -37,18 +38,33 @@
   font-weight: 600;
 }
 
-.qr-code__content {
-  display: block;
-  width: 65px;
-  height: 65px;
-  border: 3px solid var(--secondary-color);
+.iso__content {
+  width: 50px;
+  height: 50px;
   text-align: center;
   line-height: 60px;
   color: var(--primary-color);
   font-weight: 700;
   font-size: 1.3rem;
-  margin: auto;
-  margin-bottom: 8px;
+
+  border: none;
+  display: inline-block;
+  margin: 0px 0px 0px 40px;
+}
+
+
+.qr-code__content {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--secondary-color);
+  text-align: center;
+  line-height: 60px;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.3rem;
+
+  display: inline-block;
+  margin: 0px 0px 0px 10px;
 }
 
 .qr-code__des {
@@ -57,7 +73,7 @@
   font-size: 1.5rem;
   background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: var(--white-color);
-  padding: 0px 40px 0px 14px;
+  padding: 0px 15px 0px 14px;
   border-top-left-radius: 69px 80px;
   position: relative;
 }
