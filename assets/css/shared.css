@@ -144,7 +144,7 @@
 .table-info__footer__left-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .table-info__footer__left-info__content {
@@ -157,7 +157,7 @@
 .table-info__footer__right-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .table-info__footer__right-info__content {
