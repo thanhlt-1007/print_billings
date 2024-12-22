@@ -27,6 +27,11 @@
     font-size: 1.55rem;
   }
 
+  .note-vn {
+    font-size: 1.6rem;
+    padding-left: 15px;
+  }
+
   .wrapper-main-right {
     padding-left: 15px;
     padding-right: 30px;
