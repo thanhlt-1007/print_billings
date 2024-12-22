@@ -1,18 +1,18 @@
 @media print {
-    .print-w-240 {
-        width: 240px !important;
-    }
-      
-    .print-h-240 {
-        height: 240px !important;
-    }
+  .print-w-240 {
+    width: 240px !important;
+  }
+    
+  .print-h-240 {
+    height: 240px !important;
+  }
 
-    .report-info__no {
-        margin-top: 10px;
-        margin-bottom: 14px;
-    }
+  .report-info__no {
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
 
-    .report-info__no__content {
-        margin-left: 2px;
-    }
+  .report-info__no__content {
+    margin-left: 2px;
+  }
 }
