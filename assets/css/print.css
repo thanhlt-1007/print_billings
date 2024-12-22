@@ -15,4 +15,15 @@
   .report-info__no__content {
     margin-left: 2px;
   }
+
+  .des-report {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .note-eng {
+    padding-left: 5.9px;
+    margin-right: 3px;
+    font-size: 1.7rem;
+  }
 }
