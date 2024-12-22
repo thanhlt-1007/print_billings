@@ -5,5 +5,10 @@
       
     .print-h-240 {
         height: 240px !important;
-    }  
+    }
+
+    .report-info__no {
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
 }
