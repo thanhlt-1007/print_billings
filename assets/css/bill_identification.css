@@ -103,8 +103,9 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 18px;
   margin-bottom: 6px;
+  font-family: 'Montserrat-Medium';
 }
 
 .title-report {
@@ -113,6 +114,8 @@
   color: var(--secondary-color);
   font-size: 3rem;
   font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .img-report {
