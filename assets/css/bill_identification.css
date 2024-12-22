@@ -137,6 +137,7 @@
 }
 
 .des-report {
+  font-family: 'Montserrat-Medium';
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
@@ -145,7 +146,8 @@
 }
 
 .note-eng {
-  font-size: 1.4rem;
+  font-family: 'Montserrat-Medium';
+  font-size: 1.95rem;
   text-align: center;
 }
 
