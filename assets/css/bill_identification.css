@@ -103,8 +103,8 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 18px;
-  margin-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 14px;
   font-family: 'Montserrat-Medium';
 }
 
@@ -112,10 +112,12 @@
   font-family: SVN-Aptima-bold;
   text-align: center;
   color: var(--secondary-color);
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: 600;
   margin-top: -10px;
   margin-bottom: 10px;
+  letter-spacing: 1px;
+  word-spacing: 6px;
 }
 
 .img-report {

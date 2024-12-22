@@ -1,0 +1,9 @@
+@media print {
+    .print-w-240 {
+        width: 240px !important;
+    }
+      
+    .print-h-240 {
+        height: 240px !important;
+    }  
+}
