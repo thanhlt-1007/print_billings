@@ -48,4 +48,8 @@
   .print-pl-24 {
     padding-left: 24px;
   }
+
+  .table-info__header__left-info {
+    font-size: 12px !important;
+  }
 }
