@@ -167,7 +167,7 @@
 }
 
 .sign {
-  width: 120px;
+  width: 70px !important;
 }
 
 .gemologist {
@@ -183,17 +183,20 @@
 
 .gemologist_title {
   color: var(--secondary-color);
-  font-size: 1.6rem;
+  font-size: 2.0rem;
+  font-family: 'Montserrat-Medium';
 }
 
 .gemologist_des {
   color: var(--primary-color);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
+  font-family: 'SVN-Aptima-bold';
 }
 
 .gemologist_bottom {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
+  font-family: 'Montserrat-Medium';
 }
 
 .wrapper-instrument {
@@ -201,16 +204,20 @@
 }
 
 .instrument__title {
+  font-family: 'SVN-Aptima-bold';
   color: var(--primary-color);
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 2.0rem;
+  font-weight: 1000;
 }
 
 .instrument__list {
+  margin-top: 8px;
   list-style: none;
   padding: 0;
+  margin-right: 8px;
 }
 
 .instrument__item {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-family: 'Montserrat-Medium';
 }

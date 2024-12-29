@@ -36,4 +36,16 @@
     padding-left: 15px;
     padding-right: 30px;
   }
+
+  .print-pl-0 {
+    padding-left: 0px !important;
+  }
+  
+  .print-pr-0 {
+    padding-right: 0px !important;
+  }
+
+  .print-pl-24 {
+    padding-left: 24px;
+  }
 }
