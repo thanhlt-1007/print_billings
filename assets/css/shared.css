@@ -174,3 +174,8 @@
 .no-border-bottom {
   border-bottom: none;
 }
+
+.text-center {
+  text-align: center;
+  align-items: center;
+}
